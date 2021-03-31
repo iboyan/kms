@@ -3,7 +3,7 @@ PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
 export PATH
 #apt-get update
 cd /root
-wget https://raw.githubusercontent.com/iboyan/kms/main/binaries.tar.gz
+wget --no-check-certificate https://raw.githubusercontent.com/iboyan/kms/main/binaries.tar.gz
 tar zxf binaries.tar.gz
 cd /root/binaries/Linux/intel/static
 mv vlmcsdmulti-x64-musl-static /usr/local/KMS-server
