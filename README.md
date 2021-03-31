@@ -4,5 +4,7 @@
 <p>禁用防火墙：ufw disable</p>
 <p>查看端口：netstat -nxtlp | grep 1688</p>
 <p>重启：/etc/init.d/supervisor restart</p>
+<p>停止：/etc/init.d/supervisor stop</p>
+<p>启动：/etc/init.d/supervisor start</p>
 <p>运行状态：/etc/init.d/supervisor status</p>
 <span>wget --no-check-certificate https://raw.githubusercontent.com/iboyan/kms/main/kms-install.sh;chmod +x kms-install.sh;./kms-install.sh</span>
