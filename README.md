@@ -7,4 +7,4 @@
 <p>停止：/etc/init.d/supervisor stop</p>
 <p>启动：/etc/init.d/supervisor start</p>
 <p>运行状态：/etc/init.d/supervisor status</p>
-<span>wget --no-check-certificate https://raw.githubusercontent.com/iboyan/kms/main/kms-install.sh;chmod +x kms-install.sh;./kms-install.sh</span>
+<span>bash <(curl -sSL "https://raw.githubusercontent.com/iboyan/kms/main/kms-install.sh")</span>
