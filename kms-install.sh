@@ -11,7 +11,7 @@ chmod u+x /usr/local/KMS-server
 cd /root && rm -rf binaries binaries.tar.gz
 apt-get install supervisor -y
 echo "[program:kms]
-command=/usr/local/KMS-server JiaShuCan
+command=/usr/local/KMS-server vlmcsd
 autorestart=true
 autostart=true
 user=root" > /etc/supervisor/conf.d/kms.conf
